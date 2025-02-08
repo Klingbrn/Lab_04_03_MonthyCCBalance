@@ -9,7 +9,7 @@ public class balance {
         firstMonth = (cardBalance * INTEREST_RATE) + cardBalance;
         secondMonth = (firstMonth * INTEREST_RATE) + firstMonth;
 
-        System.out.println("your firt month balance is: " + firstMonth);
+        System.out.println("your first month balance is: " + firstMonth);
         System.out.println("you second month balance is: " + secondMonth);
 
         }
